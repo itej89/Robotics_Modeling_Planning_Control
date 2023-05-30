@@ -1,0 +1,95 @@
+---------------------------------------------------
+Form Closure : For Given Test Assembly
+---------------------------------------------------
+        mass  :  {"body_id": 1, "mass": 2, "cm_location": [25, 35]}
+        mass  :  {"body_id": 2, "mass": 10, "cm_location": [66, 42]}
+        contact  :  {"body_id": 1, "contact_id": 0, "location": [0, 0], "theta_normal": 1.5707963267948966, "friction_coefficient": 0.5, "alpha_wrench": 0.4636476090008061}
+        contact  :  {"body_id": 1, "contact_id": 2, "location": [60, 60], "theta_normal": 3.141592653589793, "friction_coefficient": 0.5, "alpha_wrench": 0.4636476090008061}
+        contact  :  {"body_id": 2, "contact_id": 1, "location": [60, 60], "theta_normal": 0, "friction_coefficient": 0.5, "alpha_wrench": 0.4636476090008061}
+        contact  :  {"body_id": 2, "contact_id": 0, "location": [60, 0], "theta_normal": 1.5707963267948966, "friction_coefficient": 0.5, "alpha_wrench": 0.4636476090008061}
+        contact  :  {"body_id": 2, "contact_id": 0, "location": [72, 0], "theta_normal": 1.5707963267948966, "friction_coefficient": 0.5, "alpha_wrench": 0.4636476090008061}
+
+        Force Closure Succesful
+
+
+---------------------------------------------------
+No Form Closure : For Given Test Assembly
+---------------------------------------------------
+        mass  :  {"body_id": 1, "mass": 2, "cm_location": [25, 35]}
+        mass  :  {"body_id": 2, "mass": 5, "cm_location": [66, 42]}
+        contact  :  {"body_id": 1, "contact_id": 0, "location": [0, 0], "theta_normal": 1.5707963267948966, "friction_coefficient": 0.1, "alpha_wrench": 0.09966865249116204}
+        contact  :  {"body_id": 1, "contact_id": 2, "location": [60, 60], "theta_normal": 3.141592653589793, "friction_coefficient": 0.5, "alpha_wrench": 0.4636476090008061}
+        contact  :  {"body_id": 2, "contact_id": 1, "location": [60, 60], "theta_normal": 0, "friction_coefficient": 0.5, "alpha_wrench": 0.4636476090008061}
+        contact  :  {"body_id": 2, "contact_id": 0, "location": [60, 0], "theta_normal": 1.5707963267948966, "friction_coefficient": 0.5, "alpha_wrench": 0.4636476090008061}
+        contact  :  {"body_id": 2, "contact_id": 0, "location": [72, 0], "theta_normal": 1.5707963267948966, "friction_coefficient": 0.5, "alpha_wrench": 0.4636476090008061}
+
+        Force Closure failed for mass :  1
+
+        Details :       con: array([309.24807424,   4.01833985,  17.5435942 ])
+            fun: 7.737878065860144
+        message: 'The algorithm terminated successfully and determined that the problem is infeasible.'
+            nit: 3
+          slack: array([0.18140139, 0.97549444, 2.50336006, 0.07762216])
+          status: 2
+        success: False
+              x: array([1.18140139, 1.97549444, 3.50336006, 1.07762216])
+
+
+---------------------------------------------------
+Form Closure : For Own Assembly
+---------------------------------------------------
+        mass  :  {"body_id": 1, "mass": 2, "cm_location": [25, 35]}
+        mass  :  {"body_id": 2, "mass": 10, "cm_location": [66, 42]}
+        mass  :  {"body_id": 3, "mass": 10, "cm_location": [111, 35]}
+        contact  :  {"body_id": 1, "contact_id": 0, "location": [0, 0], "theta_normal": 1.5707963267948966, "friction_coefficient": 0.5, "alpha_wrench": 0.4636476090008061}
+        contact  :  {"body_id": 1, "contact_id": 2, "location": [60, 60], "theta_normal": 3.141592653589793, "friction_coefficient": 0.5, "alpha_wrench": 0.4636476090008061}
+        contact  :  {"body_id": 2, "contact_id": 0, "location": [60, 0], "theta_normal": 1.5707963267948966, "friction_coefficient": 0.5, "alpha_wrench": 0.4636476090008061}
+        contact  :  {"body_id": 2, "contact_id": 0, "location": [72, 0], "theta_normal": 1.5707963267948966, "friction_coefficient": 0.5, "alpha_wrench": 0.4636476090008061}
+        contact  :  {"body_id": 2, "contact_id": 1, "location": [60, 60], "theta_normal": 0, "friction_coefficient": 0.5, "alpha_wrench": 0.4636476090008061}
+        contact  :  {"body_id": 2, "contact_id": 3, "location": [72, 60], "theta_normal": 3.141592653589793, "friction_coefficient": 0.5, "alpha_wrench": 0.4636476090008061}
+        contact  :  {"body_id": 3, "contact_id": 0, "location": [132, 0], "theta_normal": 1.5707963267948966, "friction_coefficient": 0.5, "alpha_wrench": 0.4636476090008061}
+        contact  :  {"body_id": 3, "contact_id": 2, "location": [72, 60], "theta_normal": 0, "friction_coefficient": 0.5, "alpha_wrench": 0.4636476090008061}
+
+        ---------------------------------------------------------------------------------------
+        Evaluation of total forces on each body
+        --------------------------------------------------------------------------------------
+
+        Total Wrench of Body  1  is  [405.2244286963325, 405.2244286963325, 43.43874204175725]
+        Gravitational Wrench of Body  1  is  [[-490.00000000000006, 0, -19.6]]
+
+        Total Wrench of Body  2  is  [7495.443839038708, 240.00000003372548, 178.39114621302178]
+        Gravitational Wrench of Body  2  is  [[-6468.0, 0, -98.0]]
+
+        Total Wrench of Body  3  is  [14752.28194094595, 1573.942632489118, 188.63633804195993]
+        Gravitational Wrench of Body  3  is  [[-10878.0, 0, -98.0]]
+
+        --------------------------------------------------------------------------------------
+
+        Force Closure Succesful
+
+
+---------------------------------------------------
+No Form Closure : For Own Assembly
+---------------------------------------------------
+        mass  :  {"body_id": 1, "mass": 2, "cm_location": [25, 35]}
+        mass  :  {"body_id": 2, "mass": 10, "cm_location": [66, 42]}
+        mass  :  {"body_id": 3, "mass": 10, "cm_location": [111, 35]}
+        contact  :  {"body_id": 1, "contact_id": 0, "location": [0, 0], "theta_normal": 1.5707963267948966, "friction_coefficient": 0.5, "alpha_wrench": 0.4636476090008061}
+        contact  :  {"body_id": 1, "contact_id": 2, "location": [60, 60], "theta_normal": 3.141592653589793, "friction_coefficient": 0.5, "alpha_wrench": 0.4636476090008061}
+        contact  :  {"body_id": 2, "contact_id": 0, "location": [60, 0], "theta_normal": 1.5707963267948966, "friction_coefficient": 0.5, "alpha_wrench": 0.4636476090008061}
+        contact  :  {"body_id": 2, "contact_id": 0, "location": [72, 0], "theta_normal": 1.5707963267948966, "friction_coefficient": 0.5, "alpha_wrench": 0.4636476090008061}
+        contact  :  {"body_id": 2, "contact_id": 1, "location": [60, 60], "theta_normal": 0, "friction_coefficient": 0.5, "alpha_wrench": 0.4636476090008061}
+        contact  :  {"body_id": 2, "contact_id": 3, "location": [72, 60], "theta_normal": 3.141592653589793, "friction_coefficient": 0.5, "alpha_wrench": 0.4636476090008061}
+        contact  :  {"body_id": 3, "contact_id": 0, "location": [132, 0], "theta_normal": 1.5707963267948966, "friction_coefficient": 0.1, "alpha_wrench": 0.09966865249116204}
+        contact  :  {"body_id": 3, "contact_id": 2, "location": [72, 60], "theta_normal": 0, "friction_coefficient": 0.5, "alpha_wrench": 0.4636476090008061}
+
+        Force Closure failed for mass :  3
+
+        Details :       con: array([ 1.08454471e+04, -3.67188532e+00,  9.64947498e+01])
+            fun: 6.463695052993673
+        message: 'The algorithm terminated successfully and determined that the problem is infeasible.'
+            nit: 4
+          slack: array([0.04932176, 0.34159575, 0.0594488 , 2.01332874])
+          status: 2
+        success: False
+              x: array([1.04932176, 1.34159575, 1.0594488 , 3.01332874])

@@ -1,0 +1,38 @@
+---------------------------------------------------
+Form Closure
+---------------------------------------------------
+Contact points : [[0, 0, 3.141592653589793], [0, 0, 4.71238898038469], [2, 1, 0], [2, 1, 1.5707963267948966]]
+[[ 0. -0. -1.  2.]
+ [-1.  0.  1.  0.]
+ [ 0. -1.  0.  1.]]
+     con: array([-2.15869544e-11, -4.44089210e-16,  0.00000000e+00])
+     fun: 5.99999999996498
+ message: 'Optimization terminated successfully.'
+     nit: 4
+   slack: array([1.00000000e+00, 1.35913503e-12, 1.00000000e+00, 1.35913503e-12])
+  status: 0
+ success: True
+       x: array([2., 1., 2., 1.])
+Form Closure successful
+Elemets of k: [2. 1. 2. 1.]
+---------------------------------------------------
+
+
+---------------------------------------------------
+No Form Closure
+---------------------------------------------------
+Contact points : [[0, 0, 3.141592653589793], [0, 0, 4.71238898038469], [2, 0.5, 0]]
+[[ 0.  -0.  -0.5]
+ [-1.   0.   1. ]
+ [ 0.  -1.   0. ]]
+     con: array([0., 0., 0.])
+     fun: 0.0
+ message: 'The problem is (trivially) infeasible because a singleton row in the upper bound constraints is inconsistent with the bounds.'
+     nit: 0
+   slack: array([-1., -1., -1.])
+  status: 2
+ success: False
+       x: array([0., 0., 0.])
+Form Closure failed
+Elemets of k: [0. 0. 0.]
+---------------------------------------------------
