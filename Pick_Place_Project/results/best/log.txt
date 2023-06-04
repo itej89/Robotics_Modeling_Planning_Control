@@ -1,0 +1,36 @@
+---------------------------------------------------
+Best configuration - Simulation
+---------------------------------------------------
+Trajectory start location - Tse :  [[0.0, 0.0, 1.0, 0.0], [0.0, 1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.5], [0.0, 0.0, 0.0, 1.0]]
+Robot Configuration :  [0.485, 0, 0.25, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+ Simulation Prameters:
+	TimeStep :  0.01
+	Joint Velocity Limits :  10
+	Wheel Velocity Limits :  30
+	Joint Angle Limits :  [[-2.932, 2.932], [-1.117, 1.553], [-2.62, 2.53], [-1.78, 1.78], [-2.89, 2.89]]
+
+ Trajectory Prameters:
+	Timings in sec:     10,    3,    0.625,    3,    10,    3,    0.625,    3
+	K multiplier:  1
+	Tce grasp:  [[-0.7071067811865475, 0.0, 0.7071067811865476, 0.0], [0.0, 1.0, 0.0, 0.0], [-0.7071067811865476, 0.0, -0.7071067811865475, 0.0], [0.0, 0.0, 0.0, 1.0]]
+	Tce standoff:  [[-0.7071067811865475, 0.0, 0.7071067811865476, 0.0], [0.0, 1.0, 0.0, 0.0], [-0.7071067811865476, 0.0, -0.7071067811865475, 0.1], [0.0, 0.0, 0.0, 1.0]]
+
+ Control Prameters:
+	feed forward added :  1
+	Kp :  1.7
+	Ki :  0.02
+
+ Task paramters:
+	Cube start :  [[1.0, 0.0, 0.0, 1.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 0.025], [0.0, 0.0, 0.0, 1.0]]
+	Cube goal  :  [[0.0, 1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, -1.0], [0.0, 0.0, 1.0, 0.025], [0.0, 0.0, 0.0, 1.0]]
+
+Generating Trajectory. . .
+Trajectory Created.
+
+Control loop running...
+Finished Control loop.
+
+Saving Simulation data. . .
+Done.
+---------------------------------------------------
