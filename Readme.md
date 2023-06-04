@@ -8,21 +8,19 @@ The results of Forward and Inverse kinematics of UR5 is as shown below
 ![Alt text](./docs/images/Kinematics.png?raw=true "Forward Kinetics")
 
 * Inverse Kinetics
-<video width="620" height="348" controls>
-  <source src="./doc/videos/InverseKinematics320p.mp4" type="video/mp4">
-</video>
+https://github.com/itej89/Robotics_Modeling_Planning_Control/assets/37236721/20931a70-b42b-4c1f-9c93-08c29a3e39d0
+
 
 ## 2. Dynamics
 The results of Forward Dynamics of UR5 is as shown below
 * Simulate Forward Dynamics - Pose 1
-<video width="620" height="348" controls>
-  <source src="./doc/videos/ForwardDynamiocs1320p.mp4" type="video/mp4">
-</video>
+https://github.com/itej89/Robotics_Modeling_Planning_Control/assets/37236721/2b79980c-2a4f-4502-a4e6-6d514016690b
+
+
 
 * Simulate Forward Dynamics - Pose 2
-<video width="620" height="348" controls>
-  <source src="./doc/videos/ForwardDynamiocs2320p.mp4" type="video/mp4">
-</video>
+https://github.com/itej89/Robotics_Modeling_Planning_Control/assets/37236721/eef42cd4-f9e8-4c47-83f8-a1dfe34efa06
+
 
 ## 3. Planning
 The results of Planning algorithms
@@ -45,6 +43,6 @@ The results of Force Closure Computations of two different configurations is as 
 ## 6. Trajectory Tracking
 The results of Pick and Place with PID based Trajectory tracking is as shown below
 * Pick and place with best PID parameters is as shown below
-<video width="620" height="348" controls>
-  <source src="./doc/videos/PickAndPlace320p.mp4" type="video/mp4">
-</video>
+
+https://github.com/itej89/Robotics_Modeling_Planning_Control/assets/37236721/ab964823-2d32-44ff-abfb-286d76811a9a
+
